@@ -11,6 +11,7 @@ import org.openqa.selenium.safari.SafariDriver;
 
 public class DriverManager 
 {
+	//Driver Manager
 
     // Thread-safe WebDriver for parallel execution
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();

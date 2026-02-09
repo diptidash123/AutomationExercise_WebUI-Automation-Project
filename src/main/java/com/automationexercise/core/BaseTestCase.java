@@ -9,7 +9,7 @@ import com.automationexercise.utils.ConfigReader;
 
 public class BaseTestCase 
 {
-	//BaseTestCase
+	//Base Test Case
 	//Every test starts with a fresh browser and ends cleanly, while supporting cross-browser and parallel execution.
 	protected WebDriver driver;
 
