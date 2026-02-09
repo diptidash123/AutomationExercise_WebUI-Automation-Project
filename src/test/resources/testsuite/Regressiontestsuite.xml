@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regressiontestsuite">
+    <listeners>
+        <listener class-name="com.automationexercise.utils.TestListener"/>
+    </listeners>
+
+    <test name="Regression Tests">
+        <classes>
+            <class name="com.automationexercise.TestScript.LoginPageTest"/>
+            <class name="com.automationexercise.TestScript.AddToCartTest"/>
+        </classes>
+    </test>
+</suite>

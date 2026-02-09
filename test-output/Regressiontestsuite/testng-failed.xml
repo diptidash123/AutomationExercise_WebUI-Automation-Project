@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regressiontestsuite]">
+  <listeners>
+    <listener class-name="com.automationexercise.utils.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Regression Tests(failed)">
+    <classes>
+      <class name="com.automationexercise.TestScript.AddToCartTest">
+        <methods>
+          <include name="verifyAddToCartAndCheckoutFlow"/>
+          <include name="SetupBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- com.automationexercise.TestScript.AddToCartTest -->
+    </classes>
+  </test> <!-- Regression Tests(failed) -->
+</suite> <!-- Failed suite [Regressiontestsuite] -->
