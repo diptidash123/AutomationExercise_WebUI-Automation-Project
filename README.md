@@ -182,6 +182,7 @@ Supports data-driven execution.
 * Supports parallel execution (extendable)
 
 **What I Learned from This Project:-**
+
 Through this project, I gained strong hands-on experience in building and maintaining a real-time web automation framework. Key learnings include:
 * How real-world Selenium automation frameworks are designed in IT companies
 * How to convert manual test cases into stable automation scripts
@@ -238,16 +239,16 @@ Git Checkout → Maven Build → Deploy → Test Execution → Retry → Extent 
 Website Reference: https://www.automationexercise.com/
 
 **Highlights Covered:-**
-✔ End-to-end web automation using Selenium WebDriver 
-✔ Real-time SDET framework architecture with clean components 
-✔ Page Object Model (POM) implementation 
-✔ Data-driven testing using external files 
-✔ Environment-based execution (config-driven) 
-✔ Framework-level retry mechanism for flaky tests 
-✔ Soft and hard assertion strategy 
-✔ Screenshot capture on failure 
-✔ Detailed Extent HTML reports with logs 
-✔ Maven-based execution with Jenkins CI/CD readiness 
-✔ GitHub version control with project ready structure
+* End-to-end web automation using Selenium WebDriver 
+* Real-time SDET framework architecture with clean components 
+* Page Object Model (POM) implementation 
+* Data-driven testing using external files 
+* Environment-based execution (config-driven) 
+* Framework-level retry mechanism for flaky tests 
+* Soft and hard assertion strategy 
+* Screenshot capture on failure 
+* Detailed Extent HTML reports with logs 
+* Maven-based execution with Jenkins CI/CD readiness 
+* GitHub version control with project ready structure
 
 Author: Dipti Ranjan Dash 
