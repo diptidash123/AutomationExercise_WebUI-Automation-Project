@@ -36,29 +36,36 @@ As part of this automation framework, the following complete end-to-end user jou
 This flow simulates a real customer purchase journey and ensures that all major functional components of the application work seamlessly together.
 
 **Tech Stack & Tools**
-Tool / Technology	Purpose
-Java	Core programming language used for automation scripting
-Selenium WebDriver	Web automation and browser interaction
-TestNG	Test execution, assertions, grouping, and reporting
-Maven	Build management and dependency handling
-IntelliJ IDEA / Eclipse	Integrated Development Environment (IDE)
-WebDriverManager	Automatic browser driver management
-Extent Reports	Rich HTML test execution and analysis reports
-Jenkins	CI/CD automation and scheduled test execution
-Git & GitHub	Version control and source code management
-Apache Commons IO	File handling and screenshot utilities
-TestNG XML Suites	Test suite configuration and execution management
-Dependencies Used
-Dependency	Version	Purpose
-Selenium Java	4.40.0	Web browser automation and UI interaction
-TestNG	7.0.0	Test execution, assertions, and test grouping
-WebDriverManager	6.3.2	Automatic browser driver management
-Extent Reports	5.1.0	Interactive HTML test execution reports
-Apache Commons IO	2.20.0	File handling and screenshot utilities
-Maven Surefire Plugin	3.2.5	Test execution and TestNG suite integration
-🏗Framework Design
+
+| Tool / Technology       | Purpose                                                 |
+| ----------------------- | ------------------------------------------------------- |
+| Java                    | Core programming language used for automation scripting |
+| Selenium WebDriver      | Web automation and browser interaction                  |
+| TestNG                  | Test execution, assertions, grouping, and reporting     |
+| Maven                   | Build management and dependency handling                |
+| IntelliJ IDEA / Eclipse | Integrated Development Environment (IDE)                |
+| WebDriverManager        | Automatic browser driver management                     |
+| Extent Reports          | Rich HTML test execution and analysis reports           |
+| Jenkins                 | CI/CD automation and scheduled test execution           |
+| Git & GitHub            | Version control and source code management              |
+| Apache Commons IO       | File handling and screenshot utilities                  |
+| TestNG XML Suites       | Test suite configuration and execution management       |
+
+**Dependencies Used**
+
+| Dependency            | Version | Purpose                                       |
+| --------------------- | ------- | --------------------------------------------- |
+| Selenium Java         | 4.40.0  | Web browser automation and UI interaction     |
+| TestNG                | 7.0.0   | Test execution, assertions, and test grouping |
+| WebDriverManager      | 6.3.2   | Automatic browser driver management           |
+| Extent Reports        | 5.1.0   | Interactive HTML test execution reports       |
+| Apache Commons IO     | 2.20.0  | File handling and screenshot utilities        |
+| Maven Surefire Plugin | 3.2.5   | Test execution and TestNG suite integration   |
+
+**Framework Design**
 The framework follows a clean, modular, and scalable architecture, designed using Page Object Model (POM) and industry best practices to ensure maintainability, reusability, and easy scalability.
 
+```text
 AutomationExercise_WebAutomation
 │
 ├── src
