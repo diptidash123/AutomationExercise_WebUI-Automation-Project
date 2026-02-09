@@ -23,6 +23,7 @@ The primary goals of this automation project are:
 * Lay Foundation for CI/CD Integration Structure the project to be easily integrated with pipelines (e.g., Jenkins, GitHub Actions) for automated execution.
 
 **End-to-End Web Automation Flow**
+
 As part of this automation framework, the following complete end-to-end user journey has been automated and validated:
 * Navigate to the AutomationExercise website
 * User Login with valid credentials
