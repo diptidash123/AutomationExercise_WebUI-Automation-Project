@@ -1,7 +1,6 @@
 package com.automationexercise.pages;
 
 import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,6 +9,7 @@ import org.testng.Assert;
 
 public class CheckoutPage 
 {
+	//Checkout page validation
 	private WebDriver driver;
     private WebDriverWait wait;
 
@@ -24,9 +24,7 @@ public class CheckoutPage
     public boolean isOrderPlacedSuccessfully() 
     {
 
-        return driver.findElement(
-            By.xpath("//p[contains(text(),'Congratulations')]")
-        ).isDisplayed();
+        return driver.findElement(By.xpath("//p[contains(text(),'Congratulations')]")).isDisplayed();
     }
 
     public CheckoutPage(WebDriver driver) 
@@ -39,7 +37,6 @@ public class CheckoutPage
     {
 
         wait.until(ExpectedConditions.elementToBeClickable(placeOrder)).click();
-
         wait.until(ExpectedConditions.visibilityOfElementLocated(name)).sendKeys(username);
         driver.findElement(card).sendKeys(cardNo);
         driver.findElement(cvc).sendKeys(cvcNo);

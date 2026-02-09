@@ -40,7 +40,8 @@ public class LoginPageTest extends BaseTestCase
 
             System.out.println("Login Test Passed");
 
-        } catch (Exception e) 
+        } 
+        catch (Exception e) 
         {
 
             ExtentTestManager.getTest().fail("Login Test Failed: " + e.getMessage());

@@ -6,12 +6,14 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
-public class TestListener implements ITestListener {
+public class TestListener implements ITestListener 
+{
 
     private static ExtentReports extent = ExtentManager.getInstance();
 
     @Override
-    public void onTestStart(ITestResult result) {
+    public void onTestStart(ITestResult result) 
+    {
         System.out.println(">>> onTestStart triggered for: " + result.getMethod().getMethodName());
 
         ExtentTest test = extent.createTest(result.getMethod().getMethodName());
@@ -19,12 +21,14 @@ public class TestListener implements ITestListener {
     }
 
     @Override
-    public void onTestSuccess(ITestResult result) {
+    public void onTestSuccess(ITestResult result) 
+    {
         ExtentTestManager.getTest().pass("Test Passed");
     }
 
     @Override
-    public void onTestFailure(ITestResult result) {
+    public void onTestFailure(ITestResult result) 
+    {
         String path = ScreenshotUtil.takeScreenshot(result.getMethod().getMethodName());
 
         ExtentTestManager.getTest()
@@ -33,7 +37,8 @@ public class TestListener implements ITestListener {
     }
 
     @Override
-    public void onFinish(ITestContext context) {
+    public void onFinish(ITestContext context) 
+    {
         extent.flush();
     }
 }

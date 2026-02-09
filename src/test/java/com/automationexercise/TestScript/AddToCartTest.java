@@ -2,19 +2,21 @@ package com.automationexercise.TestScript;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.automationexercise.core.BaseTestCase;
 import com.automationexercise.pages.CartPage;
 import com.automationexercise.pages.CheckoutPage;
 import com.automationexercise.pages.HomePage;
 import com.automationexercise.pages.LoginPage;
 
-public class AddToCartTest extends BaseTestCase {
+public class AddToCartTest extends BaseTestCase 
+{
 
     @Test(description = "Verify user can add product to cart and place order successfully")
-    public void verifyAddToCartAndCheckoutFlow() {
+    public void verifyAddToCartAndCheckoutFlow() 
+    {
 
-        try {
+        try 
+        {
 
             // Initialize Page Objects
             LoginPage loginPage = new LoginPage(driver);
@@ -27,8 +29,7 @@ public class AddToCartTest extends BaseTestCase {
             loginPage.login("diptiranjandasdipti@gmail.com", "mac1998@");
 
             // Validate Login
-            Assert.assertTrue(loginPage.isUserLoggedIn(),
-                    "Login failed: User not logged in");
+            Assert.assertTrue(loginPage.isUserLoggedIn(),"Login failed: User not logged in");
 
             // Add Product
             homePage.addProductToCart();
@@ -38,21 +39,14 @@ public class AddToCartTest extends BaseTestCase {
             cartPage.proceedToCheckout();
 
             // Place Order
-            checkoutPage.placeOrder(
-                    "Dipti",
-                    "1998",
-                    "233",
-                    "12",
-                    "1998"
-            );
+            checkoutPage.placeOrder("Dipti","1998","233","12","1998");
 
             // Validate Order
-            Assert.assertTrue(
-                    checkoutPage.isOrderPlacedSuccessfully(),
-                    "Order was not placed successfully"
-            );
+            Assert.assertTrue(checkoutPage.isOrderPlacedSuccessfully(),"Order was not placed successfully");
 
-        } catch (Exception e) {
+        } 
+        catch (Exception e) 
+        {
 
             Assert.fail("Test failed due to exception: " + e.getMessage(), e);
         }

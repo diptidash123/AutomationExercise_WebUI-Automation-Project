@@ -9,6 +9,7 @@ import org.testng.Assert;
 
 public class LoginPage 
 {
+	//Login page validation
 	//Globally called WebDriver/WebDriverWait
 	private WebDriver driver;
     private WebDriverWait wait;
@@ -22,8 +23,7 @@ public class LoginPage
     public boolean isUserLoggedIn() 
     {
 
-        return driver.findElement(By.xpath("//a[contains(text(),'Logout')]"))
-                     .isDisplayed();
+        return driver.findElement(By.xpath("//a[contains(text(),'Logout')]")).isDisplayed();
     }
 
 

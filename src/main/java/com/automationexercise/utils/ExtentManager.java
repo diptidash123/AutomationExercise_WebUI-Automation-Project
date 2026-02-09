@@ -26,7 +26,7 @@ public class ExtentManager
 
             extent = new ExtentReports();
             extent.attachReporter(spark);
-
+            
             // Optional system info
             extent.setSystemInfo("Project", "AutomationExercise");
             extent.setSystemInfo("Tester", "Dipti Ranjan");

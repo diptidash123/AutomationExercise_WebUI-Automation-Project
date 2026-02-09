@@ -1,4 +1,4 @@
-package com.automationexercise.TestScript;
+package com.automationexercise.Login;
 
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
