@@ -11,7 +11,7 @@ The site offers a wide range of web elements and workflows commonly found in e-c
 This project is built to automate end-to-end test scenarios of AutomationExercise.com using Selenium WebDriver and TestNG. It showcases a scalable and maintainable automation framework that follows industry standards and best practices. By automating real user flows, this framework enables faster regression testing, repeatable validation, and robust test reporting.
 The framework structure follows the Page Object Model (POM) design pattern to ensure separation of test logic, better readability, and maintainability.
 
-Project Objectives
+**Project Objectives**
 The primary goals of this automation project are:
 * Convert Manual Test Cases into Automated Scripts Transform manual QA flows validated on AutomationExercise.com into stable and reusable automated test cases.
 * Build a Scalable Automation Framework Design a framework that is maintainable, modular, and extensible to support future test additions and enhancements.
@@ -22,7 +22,7 @@ The primary goals of this automation project are:
 * Support Cross-Environment Execution Facilitate execution against different environments and configurations without modifying core logic.
 * Lay Foundation for CI/CD Integration Structure the project to be easily integrated with pipelines (e.g., Jenkins, GitHub Actions) for automated execution.
 
-End-to-End Web Automation Flow
+**End-to-End Web Automation Flow**
 As part of this automation framework, the following complete end-to-end user journey has been automated and validated:
 * Navigate to the AutomationExercise website
 * User Login with valid credentials
@@ -35,7 +35,7 @@ As part of this automation framework, the following complete end-to-end user jou
 * Verify order confirmation message
 This flow simulates a real customer purchase journey and ensures that all major functional components of the application work seamlessly together.
 
-🛠 Tech Stack & Tools
+**Tech Stack & Tools**
 Tool / Technology	Purpose
 Java	Core programming language used for automation scripting
 Selenium WebDriver	Web automation and browser interaction
