@@ -123,21 +123,23 @@ AutomationExercise_WebAutomation
 ├── pom.xml                              Maven dependencies
 └── README.md                            Project documentation
 
-📌 Framework Components
-🔹 Core Layer (core/)
+```
+
+**Framework Components**
+**Core Layer (core/)**
 Contains base framework components:
 * BaseTestCase.java → Test setup & teardown
 * DriverManager.java → WebDriver initialization
 Handles browser lifecycle and common configurations.
 
-🔹 Page Layer (pages/)
+**Page Layer (pages/)**
 Implements Page Object Model:
 * Each web page has a dedicated class
 * Contains locators and actions
 * Separates UI logic from test logic
 Improves maintainability and reusability.
 
-🔹 Utility Layer (utils/)
+**Utility Layer (utils/)**
 Provides reusable framework utilities:
 * Configuration management
 * Extent report handling
@@ -147,14 +149,14 @@ Provides reusable framework utilities:
 * Test data reading
 Centralizes common functionalities.
 
-🔹 Test Layer (src/test/java)
+**Test Layer (src/test/java)**
 Contains all test scenarios:
 * Module-wise organization
 * End-to-end test flows
 * Business logic validation
 Ensures clean separation between framework and test logic.
 
-🔹 Resource Layer (src/test/resources)
+**Resource Layer (src/test/resources)**
 Stores external configurations and test data:
 * Environment configs
 * Driver files
@@ -162,10 +164,15 @@ Stores external configurations and test data:
 * Test input files
 Supports data-driven execution.
 
-🚀 Design Principles Followed
-✔ Page Object Model (POM) ✔ Single Responsibility Principle ✔ Separation of Concerns ✔ Reusability & Modularity ✔ Data-Driven Testing ✔ Scalable Architecture
+**Design Principles Followed**
+✔ Page Object Model (POM) 
+✔ Single Responsibility Principle 
+✔ Separation of Concerns 
+✔ Reusability & Modularity 
+✔ Data-Driven Testing 
+✔ Scalable Architecture
 
-📈 Benefits of This Framework
+**Benefits of This Framework**
 * Easy maintenance
 * Faster test creation
 * Reduced code duplication
@@ -173,7 +180,7 @@ Supports data-driven execution.
 * CI/CD ready
 * Supports parallel execution (extendable)
 
-📘 What I Learned from This Project
+**What I Learned from This Project**
 Through this project, I gained strong hands-on experience in building and maintaining a real-time web automation framework. Key learnings include:
 * How real-world Selenium automation frameworks are designed in IT companies
 * How to convert manual test cases into stable automation scripts
@@ -184,14 +191,14 @@ Through this project, I gained strong hands-on experience in building and mainta
 * Integrating reporting and debugging mechanisms
 This project demonstrates my practical experience in building a complete web automation framework from scratch, covering login, shopping, checkout, and order confirmation workflows, along with reporting and failure handling—following enterprise SDET best practices.
 
-▶ Framework Execution
-🔹 Maven Execution
-Prerequisites
+**Framework Execution**
+**Maven Execution**
+**Prerequisites**
 * JDK 8 or above
 * Maven 3.6+
 * Git
 
-Commands
+**Commands**
 Run all tests:
 
 mvn clean test
@@ -202,28 +209,26 @@ Run Specific Suite (if applicable):
 
 mvn clean test -suiteXmlFile=src/test/resources/testsuite/Smoketestsuite.xml
 
-🔹 Execution Flow
+**Execution Flow**
 
 clean → compile → test → report generation
 
-🤖 Jenkins Execution
+**Jenkins Execution**
 Job Type
-* Freestyle Project
 * Maven Pipeline
 
 Build Step
 
-clean test -suiteXmlFile=src/test/resources/testsuite/Regressiontestsuite.xml
+clean test - suiteXmlFile=src/test/resources/testsuite/Regressiontestsuite.xml
 
 Pipeline Flow
 
-Git Checkout → Maven Build → Test Execution → Retry → Extent Report
+Git Checkout → Maven Build → Deploy → Test Execution → Retry → Extent Report
 
-Trigger
+**Trigger**
 * Manual execution
-* CRON-based scheduled execution
 
-⚠ Notes & Limitations
+**Notes & Limitations**
 * This project uses a public demo website for automation practice.
 * Website data may reset periodically, affecting test stability.
 * Some test data (users/products) may not persist permanently.
@@ -231,7 +236,17 @@ Trigger
 * Network and browser updates may impact test execution.
 Website Reference: https://www.automationexercise.com/
 
-🌟 Highlights Covered
-✔ End-to-end web automation using Selenium WebDriver ✔ Real-time SDET framework architecture with clean components ✔ Page Object Model (POM) implementation ✔ Data-driven testing using external files ✔ Environment-based execution (config-driven) ✔ Framework-level retry mechanism for flaky tests ✔ Soft and hard assertion strategy ✔ Screenshot capture on failure ✔ Detailed Extent HTML reports with logs ✔ Maven-based execution with Jenkins CI/CD readiness ✔ GitHub version control with interview-ready structure
+**Highlights Covered**
+✔ End-to-end web automation using Selenium WebDriver 
+✔ Real-time SDET framework architecture with clean components 
+✔ Page Object Model (POM) implementation 
+✔ Data-driven testing using external files 
+✔ Environment-based execution (config-driven) 
+✔ Framework-level retry mechanism for flaky tests 
+✔ Soft and hard assertion strategy 
+✔ Screenshot capture on failure 
+✔ Detailed Extent HTML reports with logs 
+✔ Maven-based execution with Jenkins CI/CD readiness 
+✔ GitHub version control with project ready structure
 
-Dipti Ranjan Dash
+Author: Dipti Ranjan Dash 
