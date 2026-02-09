@@ -166,12 +166,12 @@ Stores external configurations and test data:
 Supports data-driven execution.
 
 **Design Principles Followed**
-✔ Page Object Model (POM) 
-✔ Single Responsibility Principle 
-✔ Separation of Concerns 
-✔ Reusability & Modularity 
-✔ Data-Driven Testing 
-✔ Scalable Architecture
+* Page Object Model (POM) 
+* Single Responsibility Principle 
+* Separation of Concerns 
+* Reusability & Modularity 
+* Data-Driven Testing 
+* Scalable Architecture
 
 **Benefits of This Framework**
 * Easy maintenance
