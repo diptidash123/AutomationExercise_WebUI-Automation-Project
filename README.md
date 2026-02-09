@@ -11,7 +11,7 @@ The site offers a wide range of web elements and workflows commonly found in e-c
 This project is built to automate end-to-end test scenarios of AutomationExercise.com using Selenium WebDriver and TestNG. It showcases a scalable and maintainable automation framework that follows industry standards and best practices. By automating real user flows, this framework enables faster regression testing, repeatable validation, and robust test reporting.
 The framework structure follows the Page Object Model (POM) design pattern to ensure separation of test logic, better readability, and maintainability.
 
-**Project Objectives**
+**Project Objectives:-**
 The primary goals of this automation project are:
 * Convert Manual Test Cases into Automated Scripts Transform manual QA flows validated on AutomationExercise.com into stable and reusable automated test cases.
 * Build a Scalable Automation Framework Design a framework that is maintainable, modular, and extensible to support future test additions and enhancements.
@@ -22,7 +22,7 @@ The primary goals of this automation project are:
 * Support Cross-Environment Execution Facilitate execution against different environments and configurations without modifying core logic.
 * Lay Foundation for CI/CD Integration Structure the project to be easily integrated with pipelines (e.g., Jenkins, GitHub Actions) for automated execution.
 
-**End-to-End Web Automation Flow**
+**End-to-End Web Automation Flow:-**
 
 As part of this automation framework, the following complete end-to-end user journey has been automated and validated:
 * Navigate to the AutomationExercise website
@@ -36,7 +36,7 @@ As part of this automation framework, the following complete end-to-end user jou
 * Verify order confirmation message
 This flow simulates a real customer purchase journey and ensures that all major functional components of the application work seamlessly together.
 
-**Tech Stack & Tools**
+**Tech Stack & Tools:-**
 
 | Tool / Technology       | Purpose                                                 |
 | ----------------------- | ------------------------------------------------------- |
@@ -52,7 +52,7 @@ This flow simulates a real customer purchase journey and ensures that all major 
 | Apache Commons IO       | File handling and screenshot utilities                  |
 | TestNG XML Suites       | Test suite configuration and execution management       |
 
-**Dependencies Used**
+**Dependencies Used:-**
 
 | Dependency            | Version | Purpose                                       |
 | --------------------- | ------- | --------------------------------------------- |
@@ -63,7 +63,7 @@ This flow simulates a real customer purchase journey and ensures that all major 
 | Apache Commons IO     | 2.20.0  | File handling and screenshot utilities        |
 | Maven Surefire Plugin | 3.2.5   | Test execution and TestNG suite integration   |
 
-**Framework Design**
+**Framework Design:-**
 The framework follows a clean, modular, and scalable architecture, designed using Page Object Model (POM) and industry best practices to ensure maintainability, reusability, and easy scalability.
 
 ```text
@@ -126,7 +126,7 @@ AutomationExercise_WebAutomation
 
 ```
 
-**Framework Components**
+**Framework Components:-**
 **Core Layer (core/)**
 Contains base framework components:
 * BaseTestCase.java → Test setup & teardown
@@ -181,7 +181,7 @@ Supports data-driven execution.
 * CI/CD ready
 * Supports parallel execution (extendable)
 
-**What I Learned from This Project**
+**What I Learned from This Project:-**
 Through this project, I gained strong hands-on experience in building and maintaining a real-time web automation framework. Key learnings include:
 * How real-world Selenium automation frameworks are designed in IT companies
 * How to convert manual test cases into stable automation scripts
@@ -192,7 +192,7 @@ Through this project, I gained strong hands-on experience in building and mainta
 * Integrating reporting and debugging mechanisms
 This project demonstrates my practical experience in building a complete web automation framework from scratch, covering login, shopping, checkout, and order confirmation workflows, along with reporting and failure handling—following enterprise SDET best practices.
 
-**Framework Execution**
+**Framework Execution:-**
 **Maven Execution**
 **Prerequisites**
 * JDK 8 or above
@@ -229,7 +229,7 @@ Git Checkout → Maven Build → Deploy → Test Execution → Retry → Extent 
 **Trigger**
 * Manual execution
 
-**Notes & Limitations**
+**Notes & Limitations:-**
 * This project uses a public demo website for automation practice.
 * Website data may reset periodically, affecting test stability.
 * Some test data (users/products) may not persist permanently.
@@ -237,7 +237,7 @@ Git Checkout → Maven Build → Deploy → Test Execution → Retry → Extent 
 * Network and browser updates may impact test execution.
 Website Reference: https://www.automationexercise.com/
 
-**Highlights Covered**
+**Highlights Covered:-**
 ✔ End-to-end web automation using Selenium WebDriver 
 ✔ Real-time SDET framework architecture with clean components 
 ✔ Page Object Model (POM) implementation 
