@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CartPage 
 {
+	//Cart page validation
 	    private WebDriver driver;
 	    private WebDriverWait wait;
 

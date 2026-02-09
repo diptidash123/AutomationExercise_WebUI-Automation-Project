@@ -9,6 +9,7 @@ import org.testng.Assert;
 
 public class HomePage 
 {
+	//Homepage validation
 	private WebDriver driver;
     private WebDriverWait wait;
 
