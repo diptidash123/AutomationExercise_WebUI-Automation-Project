@@ -111,7 +111,7 @@ AutomationExercise_WebAutomation
 │       │
 │       └── resources
 │           ├── config/                  Environment configurations
-│           ├── drivers/                Browser driver binaries
+│           ├── drivers/                 Browser driver binaries
 │           ├── testinputdata/           External test input files
 │           └── testsuite/               TestNG suite XMLs
 │               └── Regressiontestsuite.xml
@@ -167,8 +167,6 @@ Supports data-driven execution.
 
 **Design Principles Followed**
 * Page Object Model (POM) 
-* Single Responsibility Principle 
-* Separation of Concerns 
 * Reusability & Modularity 
 * Data-Driven Testing 
 * Scalable Architecture
