@@ -9,6 +9,7 @@ The site offers a wide range of web elements and workflows commonly found in e-c
 * Checkout and order placement
 * User accounts
 This project is built to automate end-to-end test scenarios of AutomationExercise.com using Selenium WebDriver and TestNG. It showcases a scalable and maintainable automation framework that follows industry standards and best practices. By automating real user flows, this framework enables faster regression testing, repeatable validation, and robust test reporting.
+
 The framework structure follows the Page Object Model (POM) design pattern to ensure separation of test logic, better readability, and maintainability.
 
 **Project Objectives:-**
